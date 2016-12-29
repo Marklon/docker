@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 # This script will install Docker along with Docker-Compose
 # Install with the script
  sudo yum update
