@@ -3,10 +3,6 @@ FROM ubuntu
 # File Author / Maintainer
 MAINTAINER mbills
 
-COPY
-RUN 
-
- 
 
 # Update the repository sources list and install the dependencies 
 RUN apt-get update && apt-get install -y \
