@@ -6,10 +6,10 @@ MAINTAINER mbills
 
 # Update the repository sources list and install the dependencies 
 RUN apt-get update && apt-get install -y \
-  wget \
-  apache2 \
-  owncloud \
-  mariadb-server 
+wget \
+apache2 \
+owncloud \
+mariadb-server 
   
   # We will first download the release key associated with the ownCloud software:
 
