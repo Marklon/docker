@@ -22,6 +22,5 @@ mariadb-server
   /etc/apt/sources.list.d/owncloud.list"]
   
   EXPOSE 80
-  
   RUN service apache2 start
   
