@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:16.04
 
 # File Author / Maintainer
 MAINTAINER mbills
@@ -9,7 +9,10 @@ RUN apt-get update && apt-get install -y \
 wget \
 apache2 \
 owncloud \
-mariadb-server 
+unzip \
+curl \
+mariadb-server \
+rm -rf /var/lib/apt/lists/*
   
   # We will first download the release key associated with the ownCloud software:
 
