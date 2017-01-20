@@ -1,7 +1,6 @@
 #!/bin/bash
 # This script will install Docker along with Docker-Compose
 # Install with the script
- sudo yum update
  curl -fsSL https://get.docker.com/ | sh
  sudo systemctl enable docker
  sudo systemctl start docker
